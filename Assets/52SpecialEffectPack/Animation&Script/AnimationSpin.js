@@ -1,4 +1,4 @@
 
 function Update() {
-    animation.Play("Spin");
+    GetComponent.<Animation>().Play("Spin");
 }
